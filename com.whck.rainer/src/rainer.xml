@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rainer name="lab"> 
+  <zone name="风雨实验室"> 
+    <device id="1" name="区一" type="11" ip="192.168.1.45"> 
+      <variable name="雨型"> 
+        <type>小雨</type>  
+        <type>中雨</type>  
+        <type>大雨</type>  
+        <type>暴雨</type>  
+        <unit>型</unit>  
+        <upvalue>4</upvalue>  
+        <downvalue>1</downvalue>  
+        <ctrlable>true</ctrlable>  
+        <showable>true</showable>  
+        <dbType>0</dbType> 
+      </variable>  
+      <variable name="雨量"> 
+        <unit>mm</unit>  
+        <upvalue>360</upvalue>  
+        <downvalue>0</downvalue>  
+        <ctrlable>true</ctrlable>  
+        <showable>true</showable>  
+        <dbType>1</dbType> 
+      </variable>  
+      <variable name="雨强"> 
+        <unit>mm/h</unit>  
+        <upvalue>360</upvalue>  
+        <downvalue>0</downvalue>  
+        <ctrlable>false</ctrlable>  
+        <showable>true</showable>  
+        <dbType>2</dbType> 
+      </variable>  
+      <variable name="压强"> 
+        <unit>Mpa</unit>  
+        <upvalue>4</upvalue>  
+        <downvalue>0</downvalue>  
+        <ctrlable>false</ctrlable>  
+        <showable>true</showable>  
+        <dbType>3</dbType> 
+      </variable> 
+    </device>  
+    <device id="2" name="区二" type="11" ip="192.168.1.45"> 
+      <variable name="雨型"> 
+        <type>小雨</type>  
+        <type>中雨</type>  
+        <type>大雨</type>  
+        <type>暴雨</type>  
+        <unit>型</unit>  
+        <upvalue>4</upvalue>  
+        <downvalue>1</downvalue>  
+        <ctrlable>true</ctrlable>  
+        <showable>true</showable>  
+        <dbType>1</dbType> 
+      </variable>  
+      <variable name="雨量">
+        <unit>mm</unit>
+        <upvalue>9999</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>true</ctrlable>
+        <showable>false</showable>
+        <dbType>2</dbType>
+      </variable>
+      <variable name="雨强">
+        <unit>mm/h</unit>
+        <upvalue>360</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>2</dbType>
+      </variable>
+      <variable name="压强">
+        <unit>10Kpa</unit>
+        <upvalue>300</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>2</dbType>
+      </variable>
+    </device>  
+    <device id="3" name="区三" type="11" ip="192.168.1.45">
+      <variable name="雨型">
+        <type>小雨</type>
+        <type>中雨</type>
+        <type>大雨</type>
+        <type>暴雨</type>
+        <unit>型</unit>
+        <upvalue>4</upvalue>
+        <downvalue>1</downvalue>
+        <ctrlable>true</ctrlable>
+        <showable>true</showable>
+        <dbType>1</dbType>
+      </variable>
+      <variable name="雨量">
+        <unit>mm</unit>
+        <upvalue>9999</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>true</ctrlable>
+        <showable>false</showable>
+        <dbType>2</dbType>
+      </variable>
+      <variable name="雨强">
+        <unit>mm/h</unit>
+        <upvalue>360</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>2</dbType>
+      </variable>
+      <variable name="压强">
+        <unit>10KPa</unit>
+        <upvalue>300</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>2</dbType>
+      </variable>
+    </device> 
+  </zone> 
+</rainer>
