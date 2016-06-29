@@ -1,0 +1,87 @@
+TableColumn{
+	background-color: #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3;
+}
+Label{
+	background-color: #717171;
+}
+/*ToolBar{  
+    background-color: #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3;  
+}*/
+/* Identifies only those SWT Text elements
+appearing within a Composite */
+/*Composite Text {
+  background-color: white;
+  color: black;
+}*/
+/*Group Text {
+  background-color: white;
+  color: black;
+}*/
+Composite{
+ 	border-visible:false;
+ 	background-color:  #818181;
+}
+ScrolledComposite{
+  border-visible:false;
+  background-color:  #818181;
+}
+SoHard{
+	border-visible:gone;
+	background-color:  #ad5a5a;
+}
+ Group{
+ 	background-color:  #818181;
+ }
+ Button{
+ 	background-color:  #717171;
+ }
+
+ Table{
+ 	background-color:  #ad5a5a;
+ }
+ .chrtFrame{
+ 	background-color:  #ad5a5a;
+ }
+ DashBoard{
+  border-visible:false;
+  background-color:  #818181;
+ }
+/*.MPartStack {
+  border-visible:false;
+  background-color: #818181;
+}*/
+/*.MPartStack:active{
+	swt.unselected-tabs-color:#F3F9FF #D0DFEE #CEDDED #D2E1F0 #D2E1F0 #FFFFFF 20% 45% 60% 70% 100% 100%;
+	swt.outer-keyline-color:#B6BCCC;
+}*/
+/*.MPart{
+	background-color: #818181 #c1d5ef;
+	swt-tab-renderer: null;
+  swt-selected-tabs-background: #FFFFFF #ECE9D8 100%;
+  swt-simple: true;
+  swt-mru-visible: true;
+}*/
+.MPart:selected {  
+   visible:gone;  
+   background-color: gradient linear white black blue  
+} 
+Dialog{
+	background-color: #818181;
+}
+Tree{
+	background-color:#818181;
+}
+/*CTabItem{
+	border-visible:gone;
+	background-color: #ad5a5a;
+}*/
+/* background uses a gradient */
+.MTrimBar {
+  background-color: #7e3d76;
+}
+Shell {
+  background-color: #818181;
+}
+/*Shell {
+  background-color: #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3;
+}*/

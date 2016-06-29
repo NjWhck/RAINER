@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rainer name="lab"> 
+  <zone name="地表径流"> 
+    <device id="1" name="流量计" type="20" ip="192.168.1.67"> 
+      <variable name="流速"> 
+        <unit>L/min</unit>  
+        <upvalue>99</upvalue>  
+        <downvalue>0</downvalue>  
+        <ctrlable>false</ctrlable>  
+        <showable>true</showable>  
+        <dbType>2</dbType> 
+      </variable>  
+      <variable name="累积流量"> 
+        <unit>L</unit>  
+        <upvalue>9999</upvalue>  
+        <downvalue>0</downvalue>  
+        <ctrlable>false</ctrlable>  
+        <showable>true</showable>  
+        <dbType>0</dbType> 
+      </variable> 
+    </device>  
+    <device id="123" name="泥沙测量仪" type="20" ip="192.168.9.98">
+      <variable name="泥沙含量">
+        <unit>g</unit>
+        <upvalue>100</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>0</dbType>
+      </variable>
+      <variable name="累积含量">
+        <unit>%</unit>
+        <upvalue>100</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>2</dbType>
+      </variable>
+      <variable name="累积流量">
+        <unit>L</unit>
+        <upvalue>9999</upvalue>
+        <downvalue>0</downvalue>
+        <ctrlable>false</ctrlable>
+        <showable>true</showable>
+        <dbType>0</dbType>
+      </variable>
+    </device>
+  </zone> 
+</rainer>

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/com/whck/msf/AddDeviceDialog.java=UTF-8
+encoding//src/com/whck/msf/AddVariableDialog.java=UTF-8
+encoding//src/com/whck/msf/AddZoneDialog.java=UTF-8
+encoding//src/com/whck/msf/ChartDialog.java=UTF-8
+encoding//src/com/whck/msf/db/JDBCUtil.java=UTF-8
+encoding//src/com/whck/msf/model/Device.java=UTF-8
+encoding//src/com/whck/msf/panel/SoHard.java=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true
